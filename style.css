@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1{
+    font-family:'Montserrat' , sans-serif;
+    font-size:3rem;
+    color: white;
+    line-height: 1.5;
+    font-weight:900;
+}
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 9.5%;
+}
+
+button ion-icon{
+   position: relative;
+   top: 1px;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    margin-bottom:4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu',  sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+/*title Page*/
+
+.download-button{
+    margin:4% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.image-column{
+    position: relative;
+}
+
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* Features Section*/
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.icon{
+    width: 50%;
+    height: 40%;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+} 
+
+#features h3{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+}
+
+#features p{
+    color:#8f8f8f;
+    padding:0 5% 5% 5%;
+    
+}
+
+/* Testimonials*/
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0 15%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section*/
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+/* Pricing Section*/
+
+#pricing h2{
+    color: #000;
+}
+
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Cta Section*/
+
+#cta{
+    padding: 4% 7% 0;
+    background-color: #ff4c68;
+    
+}
+
+#cta h3{
+    color: #fff;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 7 15%;
+    font-weight: 900;
+}
+
+#footer{
+    background-color: #fff;
+    padding: 4% 0;
+    
+}
+
+.footer-icon{
+    padding: 1% 1% 1% 0 ;
+}
